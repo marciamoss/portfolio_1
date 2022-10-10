@@ -3,6 +3,7 @@ import { PageSection } from '@patternfly/react-core';
 import { Grid, GridItem } from '@patternfly/react-core';
 import { Card, TextContent, Text, TextVariants, TextList} from '@patternfly/react-core';
 import m1 from '@app/bgimages/m1.jpg';
+import './About.css';
 
 const About: React.FunctionComponent = () => (
   <PageSection className='wall-paper'>
@@ -10,17 +11,17 @@ const About: React.FunctionComponent = () => (
      <GridItem span={2}>
      <Card isCompact>
         <img alt="M1" src={m1}></img>
-        <div style={{textAlign:"center", fontSize: "13px",fontStyle:"italic"}}>
-          <a href="https://github.com/marciamoss" target="blank" style={{ color:"#00113a", fontWeight:"bold"}}>Github <br/> </a>
-          <a href="https://www.linkedin.com/in/marcia-moss-056200175/" target="blank" style={{color:"#00113a", fontWeight:"bold"}}>Linkedin <br/> </a>
-          <a href="https://drive.google.com/file/d/1ERFy6G5E91GW17JH_49wmkZb0_UrJ3Wa/view?usp=sharing" target="blank" style={{color:"#00113a", fontWeight:"bold"}}>Resume</a>
+        <div className="fa">
+          <a href="https://github.com/marciamoss" className="fs fc" target="blank">Github <br/> </a>
+          <a href="https://www.linkedin.com/in/marcia-moss-056200175/" className="fs fc" target="blank">Linkedin <br/> </a>
+          <a href="https://drive.google.com/file/d/1ERFy6G5E91GW17JH_49wmkZb0_UrJ3Wa/view?usp=sharing" className="fs fc" target="blank">Resume</a>
         </div>
       </Card>
     </GridItem>
     <GridItem span={1}></GridItem>
     <GridItem span={6}>
-      <TextContent style={{color:"#000080"}}>
-        <Text component={TextVariants.blockquote} style={{color:"#000080"}}>
+      <TextContent className="fc" >
+        <Text component={TextVariants.blockquote} className="fc">
           <b><em>Maya Angelou perfectly sums up the way I work in her quote, "Do the best you can until you know better.
           Then when you know better, do better."</em></b>
         </Text>
