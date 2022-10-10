@@ -21,7 +21,7 @@
 }
 
 .side-bar-bg {
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: lightgrey;
 
 }
 
@@ -37,7 +37,10 @@ a {
   background-color: grey;
 
 }
+.pf-c-nav__link {
+  color: black;
 
+}
 .pf-c-nav__link:hover {
   background-color: black;
 }
