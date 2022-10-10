@@ -34,6 +34,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   const Header = (
     <PageHeader 
       logo="Marcia Moss"
+      className="header-bg"
       showNavToggle
       isNavOpen={isNavOpen}
       onNavToggle={isMobileView ? onNavToggleMobile : onNavToggle}
@@ -74,6 +75,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   const Sidebar = (
     <PageSidebar
       theme="dark"
+      className="side-bar-bg"
       nav={Navigation}
       isNavOpen={isMobileView ? isNavOpenMobile : isNavOpen} />
   );

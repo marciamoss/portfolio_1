@@ -15,3 +15,33 @@
     background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
+
+.header-bg {
+  background-color: rgb(128, 128, 128);
+}
+
+.side-bar-bg {
+  background-color: rgba(128, 128, 128, 0.5);
+
+}
+
+a {
+  color: #fff;
+  font-weight: bold !important;
+  font-size: 1.3rem  !important ;
+
+}
+
+.pf-c-nav__link.pf-m-current, .pf-c-nav__link.pf-m-current:hover, .pf-c-nav__item.pf-m-current:not(.pf-m-expanded) .pf-c-nav__link {
+  color: var(--pf-c-nav__link--m-current--Color);
+  background-color: grey;
+
+}
+
+.pf-c-nav__link:hover {
+  background-color: black;
+}
+
+.pf-m-current::after {
+  border-color: lightblue !important;
+}
