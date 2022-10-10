@@ -20,7 +20,7 @@ const About: React.FunctionComponent = () => (
     <GridItem span={1}></GridItem>
     <GridItem span={6}>
       <TextContent style={{color:"#000080"}}>
-        <Text component={TextVariants.blockquote}>
+        <Text component={TextVariants.blockquote} style={{color:"#000080"}}>
           <b><em>Maya Angelou perfectly sums up the way I work in her quote, "Do the best you can until you know better.
           Then when you know better, do better."</em></b>
         </Text>
