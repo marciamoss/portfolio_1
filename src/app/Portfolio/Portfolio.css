@@ -72,9 +72,10 @@
   border-color: black;
   border-width: 1px;
 }
+
 .heading {
   margin-bottom: 25px; 
   font-family: 'Times New Roman'; 
   font-weight: bold !important; 
   color: rgb(0, 0, 128);
-};
+}
