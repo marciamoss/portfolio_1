@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PageSection } from '@patternfly/react-core';
 import { Grid, GridItem } from '@patternfly/react-core';
-import { Card, TextContent, Text, TextVariants, TextList} from '@patternfly/react-core';
+import { Card, TextContent, Text, TextVariants, TextList, TextListItem} from '@patternfly/react-core';
 import m1 from '@app/bgimages/m1.jpg';
 import '@app/About/About.css';
 
@@ -37,16 +37,19 @@ const About: React.FunctionComponent = () => (
             As a result, I am savvy enough to build your next application from scratch, yet sophisticated enough to have developed Fortune 100 solutions.
         </Text>
         <Text component={TextVariants.h5}>Education:
-          <TextList>Full stack web development from UNC at Chapel Hill, NC<br/><em>2018-2019</em><br/></TextList>
-          <TextList>M.S. Computer Science, FDU, Teaneck NJ<br/><em>2001-2003</em><br/></TextList>
+          <TextList>
+            <TextListItem>Full stack web development from UNC at Chapel Hill, NC<br/><em>2018-2019</em><br/></TextListItem>
+            <TextListItem>M.S. Computer Science, FDU, Teaneck NJ<br/><em>2001-2003</em><br/></TextListItem>
+          </TextList>
         </Text>
         <Text component={TextVariants.h5}>Skills:
-          <TextList>Languages: JavaScript, Typescript, HTML, CSS<br/>
-            Frameworks: Node.js, Express, Angular, React.js <br/>
-            Database Tools: SQL, Sequelize, PostgresSQL, Firebase, MongoDB, CouchDB<br/>
-            Other: Git/Github, jQuery, Bootstrap, Handlebars<br/>
-            SAS Certified Advanced Programmer for SAS 9 <em>(05JUL2017)</em><br/>
-            SAS Certified Base Programmer for SAS 9 <em>(15FEB2017)</em>
+          <TextList>
+            <TextListItem>Languages: JavaScript, Typescript, HTML, CSS</TextListItem>
+            <TextListItem>Frameworks: Node.js, Express, Angular, React.js</TextListItem>
+            <TextListItem>Database Tools: SQL, Sequelize, PostgresSQL, Firebase, MongoDB, CouchDB</TextListItem>
+            <TextListItem>Other: Git/Github, jQuery, Bootstrap, Handlebars</TextListItem>
+            <TextListItem>SAS Certified Advanced Programmer for SAS 9 <em>(05JUL2017)</em></TextListItem>
+            <TextListItem>SAS Certified Base Programmer for SAS 9 <em>(15FEB2017)</em></TextListItem>
           </TextList>
         </Text>
       </TextContent>

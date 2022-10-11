@@ -1,8 +1,8 @@
 .card-frame {
   background: #fff; 
-  margin: 5px; 
+  margin-right: 40px;
   width: 150px;
-  height: 300px; 
+  height: 250px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 
@@ -17,7 +17,6 @@
 .card-header-a {
   font-size: 1rem !important;
   color:#000000; 
-  text-decoration: underline;
   height:100%;
   width: 100%;
   padding: 0;
@@ -26,14 +25,13 @@
 }
 
 .card-body {
-  margin-top: 5%;
-  height: 150px;
+  margin-top: 15%;
+  height: 30%;
 }
 
 .card-body-a {
   font-size: 0.9rem !important;
   color:blue;
-  text-decoration-line: underline;
 }
 
 .card-footer{
@@ -48,7 +46,7 @@
   color: #000000  !important; 
   font-weight: bold  !important; 
   background-color:palegreen !important; 
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .card-footer-a {
@@ -78,4 +76,12 @@
   font-family: 'Times New Roman'; 
   font-weight: bold !important; 
   color: rgb(0, 0, 128);
+}
+
+.grid-item-size {
+  margin-bottom: 40px;
+  width: fit-content;
+}
+.grid-size {
+  width: fit-content;
 }
