@@ -3,7 +3,7 @@ import { PageSection } from '@patternfly/react-core';
 import { Grid, GridItem } from '@patternfly/react-core';
 import { Card, TextContent, Text, TextVariants, TextList} from '@patternfly/react-core';
 import m1 from '@app/bgimages/m1.jpg';
-import './About.css';
+import '@app/About/About.css';
 
 const About: React.FunctionComponent = () => (
   <PageSection className='wall-paper'>
