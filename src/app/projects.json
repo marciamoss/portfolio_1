@@ -1,5 +1,13 @@
 [
     {
+        "image": "/book-search-react-hooks.jpg",
+        "applink": "https://book-search-react-hooks.herokuapp.com",
+        "githublink": "https://github.com/marciamoss/book-search-react-hooks",
+        "title": "React Hooks Book Search",
+        "overview": "React based app for google book search Search page: User searches for books via the Google Books API and the search results is rendered here. User has the option to 'View' a book which brings them to the book on Google Books.",
+        "techonologies": "React, React/hooks, Google Books API, Axios, Javascript, Semantic-ui"
+    },
+    {
         "image": "/sipSpot.gif",
         "applink": "https://sipspot.herokuapp.com/",
         "githublink": "https://github.com/charlesmbrady/Project3",
