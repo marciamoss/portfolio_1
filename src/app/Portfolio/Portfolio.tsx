@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState } from "react";
 import {
   PageSection,
   Title,
@@ -12,13 +12,14 @@ import {
   Bullseye,
 } from '@patternfly/react-core';
 import '@app/Portfolio/Portfolio.css'
+import OverviewModal from '@app/Modal/Modal';
 
 export interface ISupportProps {
   sampleProp?: string;
 }
 let projects = require("../projects.json");
 
-const projectList = projects.map((p) => {
+const projectList = (setShowModal, setOverview) => projects.map((p) => {
   return (
     <GridItem className='grid-item-size' xl={2} lg={2} md={3} sm={4} key={p.title}>
       <Card isCompact className='card-frame'>
@@ -56,7 +57,7 @@ const projectList = projects.map((p) => {
           )}
         </CardBody>
         <CardFooter className='card-footer'>
-          <Button className="card-button" isSmall>
+          <Button className="card-button" isSmall onClick={() => {setOverview(p);setShowModal(true);}}>
             Overview
           </Button>{' '}
           <a href={p.githublink} target="blank" className='card-footer-a'>Github</a>
@@ -67,6 +68,9 @@ const projectList = projects.map((p) => {
 
 // eslint-disable-next-line prefer-const
 let Portfolio: React.FunctionComponent<ISupportProps> = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [overview, setOverview] = useState({});
+
   return (
     <PageSection className='wall-paper'>
       <Bullseye>
@@ -74,7 +78,10 @@ let Portfolio: React.FunctionComponent<ISupportProps> = () => {
           <Title className='heading' headingLevel="h1">
             Projects:
           </Title>
-          {projectList}
+          {projectList(setShowModal, setOverview)}
+          {showModal ? (
+            <OverviewModal showModal={showModal} setShowModal={setShowModal} overview={overview}/>
+          ) : ''}
         </Grid>
       </Bullseye>
     </PageSection>
