@@ -22,14 +22,6 @@
         "title": "goTreeUrself",
         "overview": "goTreeUrself is a site promoting the importance of planting trees to help renew resources lost to mass deforestation. Encouraging people to plant a tree clearly has value but, for most people, it is an abstract idea. By putting 'pins' on a map showing where others have planted trees, goTreeUrself encourages participation and lets users show the world trees they care about - either ones they have planted or ones that are important in their lives.",
         "technologies": "Node, Handlebars, Sequelize, mySQL2, JawsDB, Google Maps, Filestack, Foundation and CSS Grid."
-    }, 
-    {
-        "image": "/React_Google_Book_Search.jpg",
-        "applink": "https://fathomless-wildwood-49554.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/React-Google-Book-Search",         
-        "title": "React Google Book Search",
-        "overview": "React based app for google book search Search page: User searches for books via the Google Books API and the search results is rendered here. User has the option to 'View' a book which brings them to the book on Google Books, or 'Save' a book which saves it to the Mongo database. Saved page: Renders all books saved to the Mongo database. User has an option to 'View' the book, bringing them to the book on Google Books, or 'Delete' a book, removing it from the Mongo database.",
-        "technologies": "React, Node, Express, Google Books API, Axios, Javascript, Bootstrap"
     },
     {
         "image": "/ReactMongoScraper.jpg",
