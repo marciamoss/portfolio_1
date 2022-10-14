@@ -4,8 +4,8 @@
         "applink": "https://book-search-react-hooks.herokuapp.com",
         "githublink": "https://github.com/marciamoss/book-search-react-hooks",
         "title": "React Hooks Book Search",
-        "overview": "React based app for google book search Search page: User searches for books via the Google Books API and the search results is rendered here. User has the option to 'View' a book which brings them to the book on Google Books.",
-        "technologies": "React, React/hooks, Google Books API, Axios, Javascript, Semantic-ui"
+        "overview": "React based app for google book search page: User searches for books via the Google Books API and the search results is rendered here. User has the option to 'View' a book which brings them to the book on Google Books. User can also 'Save' a book which saves it to the Mongo database. Saved page: Renders all books saved to the Mongo database. User has an option to 'Delete' a book, removing it from the Mongo database.",
+        "technologies": "React, React/hooks, express, node.js, mongo db, Google Books API, Axios, Javascript, Semantic-ui"
     },
     {
         "image": "/sipSpot.gif",
