@@ -41,7 +41,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
       history.push('/About');
     }
     return (
-      <p onClick={handleClick}>{history.location.pathname==='/' ? 'Marcia Moss' : 'Portfolio'}</p>
+      <p onClick={handleClick}>{history.location.pathname==="/" ? "Portfolio" : "Marcia Moss"}</p>
     );
   }
   const Header = (
