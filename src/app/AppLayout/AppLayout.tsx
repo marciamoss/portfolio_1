@@ -31,9 +31,18 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
     setIsMobileView(props.mobileView);
   };
 
+  function LogoImg() {
+    const history = useHistory();
+    function handleClick() {
+      history.push('/About');
+    }
+    return (
+      <p onClick={handleClick}>Marcia Moss</p>
+    );
+  }
   const Header = (
     <PageHeader 
-      logo="Marcia Moss"
+      logo={<LogoImg />}
       className="header-bg"
       showNavToggle
       isNavOpen={isNavOpen}

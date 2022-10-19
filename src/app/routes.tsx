@@ -29,14 +29,14 @@ const routes: AppRouteConfig[] = [
     component: About,
     exact: true,
     label: 'About',
-    path: '/',
+    path: '/About',
     title: 'About Me Page',
   },
   {
     component: Portfolio,
     exact: true,
     label: 'Portfolio',
-    path: '/Portfolio',
+    path: '/',
     title: 'Portfolio Page',
   },
 ];
