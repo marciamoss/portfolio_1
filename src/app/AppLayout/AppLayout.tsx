@@ -34,10 +34,14 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   function LogoImg() {
     const history = useHistory();
     function handleClick() {
+      if(history.location.pathname === '/About') {
+        history.push('/');
+        return;
+      }
       history.push('/About');
     }
     return (
-      <p onClick={handleClick}>Marcia Moss</p>
+      <p onClick={handleClick}>{history.location.pathname==='/' ? 'Marcia Moss' : 'Portfolio'}</p>
     );
   }
   const Header = (
