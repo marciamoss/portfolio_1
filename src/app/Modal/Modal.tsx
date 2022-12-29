@@ -17,7 +17,7 @@ const OverviewModal = ({showModal, setShowModal, overview}) => {
 
   const footer = (
     <Title headingLevel="h4" size={TitleSizes.md}>
-      <Button key="close" variant="primary" onClick={handleModalToggle}>Close</Button>,
+      <Button key="close" variant="primary" onClick={handleModalToggle}>Close</Button>
       <Button key="launch" variant="link" onClick={handleModalToggle}>
         <a href={overview.applink} className="pf-c-button pf-m-link">Launch Application</a>
       </Button>

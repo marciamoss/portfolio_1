@@ -1,61 +1,19 @@
 [
     {
+        "image": "/entertainment-redux.jpg",
+        "applink": "https://entertain-me-react-redux-marciamoss.vercel.app",
+        "githublink": "https://github.com/marciamoss/entertain-me-react-redux",
+        "title": "React/Redux oneStop Fetch",
+        "overview": "React-Redux based app for one stop search for News/Music/Movies etc. with updated google oauth enabled",
+        "technologies": "React, React/hooks, Redux, OAuth 2.0, node.js, Newyork Times API, Spotify API, Axios, Javascript, Semantic-ui"
+    },
+    {
         "image": "/book-search-react-hooks.jpg",
-        "applink": "https://book-search-react-hooks.herokuapp.com",
-        "githublink": "https://github.com/marciamoss/book-search-react-hooks",
+        "applink": "https://books-hooks-marciamoss.vercel.app",
+        "githublink": "https://github.com/marciamoss/books-hooks",
         "title": "React Hooks Book Search",
         "overview": "React based app for google book search page: User searches for books via the Google Books API and the search results is rendered here. User has the option to 'View' a book which brings them to the book on Google Books. User can also 'Save' a book which saves it to the Mongo database. Saved page: Renders all books saved to the Mongo database. User has an option to 'Delete' a book, removing it from the Mongo database.",
         "technologies": "React, React/hooks, express, node.js, mongo db, Google Books API, Axios, Javascript, Semantic-ui"
-    },
-    {
-        "image": "/sipSpot.gif",
-        "applink": "https://sipspot.herokuapp.com/",
-        "githublink": "https://github.com/charlesmbrady/Project3",
-        "title": "sipSpot",
-        "overview": "sipSpot uses geolocation and a simple click of a button to keep track of both where your things are, and your alcohol intake, when you're out on the town. When you click +Drink, sipSpot keeps track of the number of drinks you've had and the timeframe in which you've had them to constantly update an estimate of your Blood Alcohol Concentration (BAC).",
-        "technologies": "React, Node, Express, Geolocation API, Axios, Javascript, Twillio"
-    }, 
-    {
-        "image": "/goTreeUrself.jpg",
-        "applink": "https://gotreeurself.herokuapp.com/",
-        "githublink": "https://github.com/ralracish/goTreeUrself",         
-        "title": "goTreeUrself",
-        "overview": "goTreeUrself is a site promoting the importance of planting trees to help renew resources lost to mass deforestation. Encouraging people to plant a tree clearly has value but, for most people, it is an abstract idea. By putting 'pins' on a map showing where others have planted trees, goTreeUrself encourages participation and lets users show the world trees they care about - either ones they have planted or ones that are important in their lives.",
-        "technologies": "Node, Handlebars, Sequelize, mySQL2, JawsDB, Google Maps, Filestack, Foundation and CSS Grid."
-    },
-    {
-        "image": "/ReactMongoScraper.jpg",
-        "applink": "https://react-newsscraper.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/React-MongoScrape",         
-        "title": "React Mongo Scraper",
-        "overview": "A web app that lets users view and leave comments on the latest news scraped using Mongoose and Cheerio from https://www.nytimes.com.Users can leave comments on the articles displayed and can revisit them later. The comments are saved to the database as well and associated with their articles. Users can also delete comments left on articles. All stored comments are visible to every user. All scraped stories are unique and no duplicates are saved.",
-        "technologies": "React, Node, Express, Cheerios, Axios, Javascript, Bootstrap"
-    },
-    {
-        "image": "/MongoScraper.jpg",
-        "applink": "https://powerful-caverns-28906.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/mongoscrape",         
-        "title": "Handlebars Scraper",
-        "overview": "A web app that lets users view and leave comments on the latest news scraped using Mongoose and Cheerio from https://www.nytimes.com.Users can leave comments on the articles displayed and can revisit them later. The comments are saved to the database as well and associated with their articles. Users can also delete comments left on articles. All stored comments are visible to every user. All scraped stories are unique and no duplicates are saved.",
-        "technologies": "Handlebars, Node, Express, Cheerios, Axios, Javascript, Jquery, Bootstrap"
-    },
-    {
-        "image": "/ClimbingStairs.jpg",
-        "applink": "https://climbing-stairs.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/climbing-stairs",
-        "title": "Climbing Stairs",
-        "overview": "A Climbing Stairs combination calculator built on react. The app takes in total number of steps as a positive integer and calculate number of ways you can get to the top using 1 or 2 steps at a time.",
-        "technologies": "React, Javascript"
-
-    },
-    {
-        "image": "/TipCalculator.jpg",
-        "applink": "https://react-tip-calculator.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/TipCalculator",         
-        "title": "Tip Calculator",
-        "overview": "A tip calculator built on react. The app takes in the value of the bill and displays the tip options. The user can pick the predefined tip options or pick their own tip option using custom button. The custom tip option has two input either custom tip amount in dollars or custom tip amount in %. Depending on the user selection the app displays the bill amount, tip amount and total of both bill and tip together. The user has the option to split the bill by adding the number of people. When split option is selected, the bill, tip and total is displayed for each person.",
-        "technologies": "React, Javascript"
-
     },
     {
         "image": "/react-clicky-game.jpg",
@@ -64,22 +22,6 @@
         "title": "React Clicky Game",
         "overview": "This app is a memory game with React.js. The user's score is incremented when clicking an image for the first time. The user's score resets to 0 if they click the same image more than once. Every time an image is clicked, the images rendered to the page shuffles themselves in a random order. Once the user's score is reset after an incorrect guess, the game restarts. The top score keeps track of the maximum score achieved by the user throughout all games during that session.",
         "technologies": "React, Javascript"
-    },
-    {
-        "image": "/SequelizedBurger.jpg",
-        "applink": "https://damp-plains-34136.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/sequelizedBurger",         
-        "title": "Sequelized Burger",
-        "overview": "Burger app is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page along with a text box for user name entry-- waiting to be devoured. Each burger in the waiting area also has a devour It! button. When the user clicks it, the burger will move to the right side of the page. App has a Customer association table. This involved creating one new Customer model and connecting it with the Burger model. The app will store every burger in a database, whether devoured or not along with user associations.",
-        "technologies": "Javascript, Sequelize, Sequelize associations, Node, Express and Handlebars"
-    },
-    {
-        "image": "/burger.jpg",
-        "applink": "https://salty-garden-86325.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/burger",         
-        "title": "Eat Da Burger",
-        "overview": "Burger app is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a devour It! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.",
-        "technologies": "Javascript, Node, Express, Handlebars, MySQL"
     },
     {
         "image": "/bamazon.gif",
@@ -104,14 +46,6 @@
         "title": "Liri Node.js",
         "overview": "LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. The video Links demonstrates how it operates.",
         "technologies": "Javascript, Node, Inquirer, Spotify API, OMDB api, Bands in town API, Axios"
-    },
-    {
-        "image": "/FriendFinder.jpg",
-        "applink": "https://blooming-woodland-51958.herokuapp.com/",
-        "githublink": "https://github.com/marciamoss/FriendFinder",         
-        "title": "Friend Finder",
-        "overview": "A dating app which is compatibility-based 'FriendFinder' application. This is a full-stack site which takes in results from user's surveys, then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match. The app uses Express to handle routing.",
-        "technologies": "Javascript, Bootstrap, Jquery, Express"
     },
     {
         "image": "/Train_Activity.jpg",
